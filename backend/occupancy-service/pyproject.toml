@@ -1,0 +1,14 @@
+[project]
+name = "occupancy-service"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aio-pika>=9.5.7",
+    "fastapi[standard]>=0.118.0",
+    "paho-mqtt>=2.1.0",
+    "ruff>=0.13.2",
+    "sqlmodel>=0.0.25",
+    "pydantic-settings>=2.0.0",
+]
